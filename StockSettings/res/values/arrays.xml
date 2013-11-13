@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backlight_timeout_entries">
+        <item>2 seconds</item>
+        <item>Default (5 seconds)</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="backlight_timeout_entries_values">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="blink_timeout_entries">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>Default (5 minutes)</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="blink_timeout_entries_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="hspa_entries">
+        <item>UMTS Only</item>
+        <item>HSDPA Only</item>
+        <item>HSDPA + HSUPA</item>
+    </string-array>
+    <string-array name="hspa_entries_values">
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+</resources>

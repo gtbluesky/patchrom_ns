@@ -1,0 +1,1152 @@
+===================================
+Since Thu Sep  5 00:34:14 UTC 2013
+===================================
+
+   * android
+b6ef8e9 Add manifest for 10.1.3
+
+   * frameworks/base
+eccf4c5 Merge "Re-implement orientation aware volume buttons at lower level" into cm-10.1
+1311a90 Rework thumbnail handling
+22a4d65 Re-implement orientation aware volume buttons at lower level
+
+   * frameworks/opt/telephony
+949aeb6 GsmSST: Disregard any invalid verbose values for timezones in NITZ requests
+0d93107 HTCTegra3RIL: Add custom RIL for correct STK handling (1/2)
+
+   * hardware/qcom/audio-caf
+af107a1 alsa_sound: Fix audio over Miracast
+e684d58 Merge "msm7x30: disable logcat spam" into cm-10.1
+d89f5d2 msm7x30: disable logcat spam
+
+   * hardware/ti/wlan
+271f2fb Merge "WLAN - wl12xx: Update version to ol_R5.SP5.01" into cm-10.1
+625bf56 Merge "WLAN - compat_wl12xx: more file cleanups" into cm-10.1
+27a3b8e WLAN - wl12xx: Update version to ol_R5.SP5.01
+8f62c4f WLAN - wl12xx: Update to R5.SP5.01 from R5.SP3.06 package
+9fcfaee WLAN - compat_wl12xx: more file cleanups
+
+   * libcore
+7687ea6 Do not apply the PRNG workarounds if an explicit seed is given
+
+   * packages/apps/CMAccount
+11aa65b Revert "Use framework libs instead of local."
+8577bae Merge "CMAccount: FR translation" into cm-10.2
+fa4490e Do not expire refresh token on HTTP 400
+58fc007 CMAccount: FR translation
+e7e9f73 Merge "CMAccount: DE translations" into cm-10.2
+ab35b43 Fix aapt string warnings [translation]
+b7d2df6 CMAccount: zh-tw translations
+5ac0a38 Merge "CMAccount: CA translations" into cm-10.2
+0759922 Merge "CMAccount: NL translations" into cm-10.2
+9fd9dea Merge "CMAccount: PT-BR update translations" into cm-10.2
+238ec33 CMAccount: CA translations
+7220350 CMAccount: DE translations
+c2a3451 CMAccount: RU translation
+6ca668d Merge "CMAccount: FI translations" into cm-10.2
+630fef2 Merge "CMAccount: Add Polish translation" into cm-10.2
+36c037d CMAccount: NL translations
+8b01e1d CMAccount: PT-BR update translations
+f2801e6 Merge "CMAccount: HU translation" into cm-10.2
+d57dd48 Merge "CMAccount: IT translation" into cm-10.2
+643e00a CMAccount: IT translation
+0b6a5e0 CMAccount: FI translations
+407add1 CMAccount: HU translation
+c680ef3 CMAccount: Japanese translation
+1247071 CMAccount: Add Polish translation
+e451856 Merge "CMAccount: RU translation" into cm-10.2
+73eb382 CMAccount: CS translation
+6f31acb CMAccount: PT-BR update translations
+ecc566d CMAccount: EL translations
+712d028 CMAccount: RU translation
+220c7a4 CMAccount: PT-BR update translations
+2c94e87 Merge "CMAccount: ES translations" into cm-10.2
+07e961d Merge "Do not apply PRNGFixes locally" into cm-10.2
+e2ae45c Do not upload public keys until ping is completed
+26ca92d Do not apply PRNGFixes locally
+1360153 CMAccount: ES translations
+ba84d9d Handle public_keys_exhausted message
+0bcef4f Check minimum required application version
+c9f1fc4 Always upload all public keys
+
+   * packages/apps/CMUpdater
+859603f Merge "Gracefully handle unstable network conditions." into cm-10.1
+e44a38b Gracefully handle unstable network conditions.
+40bd30c CMUpdater: RU translation
+36cc49c Merge "Reset preference state correctly if download initiation failed." into cm-10.1
+7ae8be7 Merge "Don't parcel change log." into cm-10.1
+c1059ec Reset preference state correctly if download initiation failed.
+fc7c482 Don't parcel change log.
+
+   * packages/apps/Calculator
+70abe85 Calculator: PT-PT translations
+
+   * packages/apps/Camera
+944a56e Camera: zh-rTW translations
+51e52db Camera: fix gfx undefined buffer issue
+
+   * packages/apps/DSPManager
+ba0309a Listen to A2DP profile connection instead of device connection.
+cbccfae Accept any kind of A2DP device for using the BT preferences, not only headsets.
+
+   * packages/apps/Gallery2
+b260c0f Gallery2: Fix show on map typo
+5ed2855 Gallery2: Fix showOnMap method
+
+   * packages/apps/Mms
+1b44332 Mms: Fix QuickMessage mdpi/hdpi layouts
+6d89bbc Mms: Fix QuickMessage mdpi/hdpi layouts
+
+   * packages/apps/Phone
+5d3888b Fix ClassCastException on disconnect for blacklisted calls.
+
+   * packages/apps/Settings
+b1755aa Settings: CA translations
+7ace091 Merge "Settings: CA translations" into cm-10.1
+
+   * packages/apps/Torch
+3a1e1a3 Torch: only write to sysfs if not already on
+
+   * packages/providers/ContactsProvider
+d5956fd Fix IllegalArgumentException.
+
+   * system/core
+ba213e9 ueventd: allow platform devices to have just a /devices/ prefix - DO NOT MERGE
+
+   * vendor/cm
+85e9de1 10.1.3
+2b287af Add Galaxy S4 Mini maintainer
+b4b8de5 Merge tag 'cm-10.1.3-RC2' into cm-10.1.3
+189de84 cm: Add CMAccount to the build
+590a984 Merge "Bring back the old CyanAlarm alarm tone" into cm-10.1
+
+   * vendor/sony
+65ab400 Initial blob for togari and honami (14.1.x.1.526)
+c6c6fb0 qcom-common: add Adreno 330 blob
+b50b2c7 fusion3: add system_monitor
+280836b qcom-common: adreno AU_LINUX_ANDROID_JB_2.5.6.04.02.02.093.061
+94281f0 fusion3: update blob from 4.2.2
+
+   * vendor/tmobile/apps/ThemeChooser
+3ef20e8 Show the theme name in the choice screen
+
+===================================
+Since Thu Jul 11 23:49:11 UTC 2013
+===================================
+
+   * android
+a9420b8 Add manifest for 10.1.3-RC2
+1e26a86 Add 10.1.3-RC1 manifest
+cfa5271 Add VoicePlus
+4af61e1 Add Babel dependencies
+6066e99 add gson
+
+   * bionic
+bdc251d libc: arch-arm: strlen: Illegal ARM registry entries fixed Signed-off-by: Paul Beeler <sparksco@gmail.com>
+ce133c0 Added audit.h from the kernel.
+
+   * bootable/recovery
+0f7f15c v6036
+568d9bc Shrink cid
+6fd7ca9 Merge "Add sdparted option to partition in ext4 fstype" into cm-10.1
+caf0c8a Merge "Update wipe data option confirmation" into cm-10.1
+63ac2b8 unset immutable bit on install-recovery.sh
+04f02c5 4.3 detection fix
+a2aac83 add su daemon runner
+ab6769d 6035
+912b6d9 su installation and detection updates for 4.3
+ebecbc6 Fixes for Superuser
+b9ecf64 Add power off & reboot to bootloader mode in advanced menu
+8736cc1 Remove "fix permissions" option
+a81817c more headless fixes
+38a4356 Merge "add --headless mode" into cm-10.1
+ab60a07 add --headless mode
+64615ee SELinux: don't suppress the "no file_contexts" message on the UI
+7f7491f Update wipe data option confirmation
+a4be87f Add sdparted option to partition in ext4 fstype
+
+   * build
+2f689a4 Updated CM release key for recovery
+7d15161 envsetup: add a helper to fix "out/target/common" not being really common
+42342f3 Bionic optimization for Cortex A5
+ff41d07 releasetools: use prebuilt boot image if using a custom boot image makefile
+d496200 roomservice: Bump devices per page to 200
+6cd5f43 Add auditd to SELinux-enabled builds
+6490b2b Merge "lets make the lunch list look a little neater" into cm-10.1
+6fe65c4 update emulator's recovery.fstab
+7197530 emulator: use ext4 instead of yaffs
+
+   * dalvik
+76461e9 dalvik/vm: Dalvik startup with a low memory footprint
+37e8ce4 JIT: Combine add with shift and offset for array load & store.
+36141f9 JIT: Combine add with shift.
+f3485c4 JIT: Hoist loop load operations above loop.
+a5830d7 JIT: Use rsb and shift in easy multiply.
+1ec6cb9 JIT: Combine shift & sub for monitor unlock.
+8b7100f JIT: Allow use of cbz/cbnz for conditional branch gen.
+e2561a0 debug: allow ability to hide GC freed lines in logcat
+
+   * device/common
+a37aa43 libbt: Add support for using two stop bits
+94e39fa libbt: BT USB support
+
+   * device/samsung/crespo
+998ce93 Update BT network interface name for Android 4.2
+46fcf24 Update for new Bluedroid BT stack in Android 4.2
+f86fd52 crespo: fix extract permission permissions
+6a63732 Crespo/CrespoParts: CS translation
+
+   * external/bluetooth/bluedroid
+10b999d Add I2S-PCM slave mode for SCO
+382f7fb Support USB HCI
+a59fa7f bt_hci_bdroid: check for failure to open hci
+
+   * external/fuse
+cc7afb6 Allow building when strict aliasing
+
+   * external/google
+c2c36dc use source built gson
+94e2ac0 Add gson-2.2.4. Add target to libGoogleAnalyticsV2.
+
+   * external/gson
+ca8ca14 Android.mk
+
+   * external/koush/Superuser
+fdc28d8 always start daemon, as that is the default behavior.
+0fc942f update WHATS_NEW
+ed2bc86 Merge remote-tracking branch 'koush/master' into cm-10.2
+6aba49a v1021
+f9cee64 Merge remote-tracking branch 'github/cm-10.1' into cm-10.2
+2c92504 Fix potential trust issues by using SO_PEERCRED.
+72d5412 sanitize inputs. verify mallocs.
+72bebe6 Superuser: fixed FI translations
+f1adc4c Superuser: fixed FI translations
+f3454b5 Merge remote-tracking branch 'github/cm-10.1' into cm-10.2
+e72d31c Fix Makefile for non embedded ROMs
+609f489 Merge "superuser: updated finnish translations" into cm-10.2
+7c66ccb Superuser: FI translations
+c52767b Helium
+c7d759a v1020
+45af423 Fix recovery install via app. Fix adb shell not being able to access /data. Use thin font on values-16, only on Superuser-light theme. Better logging.
+e015fc5 superuser: updated finnish translations
+6f1029c unset immutable bit on su
+70d5169 Fix endif spacing
+7b7c154 unset immutable bit on install-recovery.sh
+69a0436 more cleanups around waitpid
+5f2c658 Submitting to POSIX C standard: fork_zero_fucks. For when you give zero fucks about the state of the child process. This version of fork understands you dont care about the child. deadbeat dad fork.
+ff79bcb For some reason log exec calls from the daemon result in zombie log processes... just disable logging from the daemon. Forked daemon clients do not seem to have this issue, I presume because they die?
+5ba79e6 fix script failure
+0cb0e4c fix 4.3 check logic
+c7adb38 Rev the su binary version. Add --daemon documentation. Only allow recovery install on 4.3+.
+e37046f Merge remote-tracking branch 'github/cm-10.1' into cm-10.2
+33489f1 install-recovery.sh packaging
+d0db622 Add support for su daemon installation and detection in recovery zip.
+9ff3fb4 cleanups and sanity check string length
+ce4060f Fix build
+ca54630 Superuser 4.3 fixes.
+a084ab9 Add support for su daemon installation and detection in recovery zip.
+4f8c024 Add missing NULL sentinel.
+984ec08 Add missing NULL sentinel.
+5ef9f3a cleanups and sanity check string length
+8c918b2 Fix build
+c200cf7 Superuser 4.3 fixes.
+1fc34f3 Merge pull request #165 from CyanogenMod/cm-10.1
+
+   * external/libpng
+1c1a497 external: libpng: fix numerous compiler warnings
+
+   * external/libselinux
+c3d0c45 Merge branch 'master' into seandroid
+f83b5ae Merge branch 'master' into seandroid
+b1ae15a Clean up code
+9ca4088 android.c: fix free of uninitialized memory
+
+   * external/libusb
+e87262e Add libusb support
+
+   * external/sepolicy
+85d21f7 Revert "Add a new context for Google-authored apps"
+923bd93 Restore /dev/eac - used by the emulator.
+e74ed5e Allow Performance Settings to set sys.cpufreq.restored
+b5c32a3 Let system components and apps set the enforce state
+96cea0c Fix MMAC permissions
+2666f2d Merge branch 'selinux' into cm-10.1
+4ba45a3 Fix priority in /cache/dalvik-cache labelling
+e83c5a9 Fix some failures in the Settings app
+ccd2d60 Fix rild's usage of its netlink socket
+188a3a5 Fix adbd's access to its own authorized keys file
+47ad856 Add a new context for Google-authored apps
+0f49406 Add context for CM's alternate dalvik-cache path
+18c1cbc Revert "ISSUE 6849488 Bluedroid stack, remove system/bluetooth."
+
+   * external/spongycastle
+fc2a21c Update license to match SpongyCastle
+8c62256 Add license files
+241d963 Build sc-light-jdk15on with Android build
+
+   * frameworks/av
+229bb7f libstagefright: Add support for custom LPA buffer size
+c6d665d camera: Fix preview on SEMC msm7x30 devices
+8f94116 Add LG camera HAL parameters
+abf3ce3 Add some Samsung camera color effects
+
+   * frameworks/base
+d8574e9 Fix flicker in lockscreen if music controls are disabled.
+f9e4ad6 PackageManager: allow build-time disabling of components
+39e05c7 Merge "PowerWidget: Dismiss unsecure keyguard on long tap" into cm-10.1
+3f64f62 PowerWidget: Dismiss unsecure keyguard on long tap
+2e54d5d QS: Unlock screen when tap profile tile
+618b2bd SystemUI: CA translations
+3615c2c Merge "frameworks_base: CA translations" into cm-10.1
+abb985f Merge "Fix Home/Menu/Back keys' unlock" into cm-10.1
+f80133a frameworks_base: CA translations
+a8fc994 Merge "am: Allow more hidden apps on devices with lots of RAM" into cm-10.1
+aba2ab2 am: Allow more hidden apps on devices with lots of RAM
+2d6c9bb Fix Home/Menu/Back keys' unlock
+af15391 SystemUI: Fix missing context var
+a92c2e6 SystemUI: Add ethernet network icon
+28ae2a3 SystemUI & core: fixed FI translations
+d549b36 Revert "SystemUI & core: FI translations"
+d727d4c SystemUI & core: FI translations
+33e2166 Merge "frameworks_base: Update Japanese translation" into cm-10.1
+d544f65 Merge "android_os_SELinux : Use empty array to instead of NULL to avoid the DevicePolicyManagerService cannot start when the SELinux is disabled." into cm-10.1
+7c1389d frameworks_base: Update Japanese translation
+68a1c87 frameworks/base: Simplified Chinese Translations
+b9ad594 Merge "Core+SystemUI: DA translation" into cm-10.1
+1f66b28 Core: Update German translation
+f0e7966 Core+SystemUI: DA translation
+9f31f37 Merge "Show advanced reboot if using an insecure lock screen" into cm-10.1
+162845a Core: NL translation
+199dd03 Merge "Make notification-shade-collapse-after-dismiss behaviour configurable." into cm-10.1
+ea13915 Merge "Improve notification shade collapse code." into cm-10.1
+246a27b Merge "Frameworks/base: Update italian translation" into cm-10.1
+eff15e1 Enable Estonian language
+93b24b8 Merge "Base-Core: CS translation" into cm-10.1
+8999a1a Frameworks : FR translation
+bca35e2 Merge "frameworks_base: ES translations" into cm-10.1
+46d787c Merge "Core: HU translation" into cm-10.1
+45bb3c3 Merge "core/SystemUI: EL translations" into cm-10.1
+d348715 Frameworks/base: Update italian translation
+a37ddac BT: Fix memory leak when BT on & off done many times
+a7ff852 android_os_SELinux : Use empty array to instead of NULL to avoid the DevicePolicyManagerService cannot start when the SELinux is disabled.
+0153e67 Base-Core: CS translation
+4ff298a Fix hungarian keyboard layout
+ba6f1b7 android_os_FileUtils_getVolumeUUID: Fix the incorrect logical for call blkid_get_tag_value.     There are two problems in here.   1. For the function blkid_get_tag_value third parameter is should be the device, not the mount pointer, in the MediaPrivader.attachVolume, it will pass the mount path to call this function.   2. The UUID for device is hex, so call atoi is not right. I think call strtol is better than atoi.
+07c4f05 Fix RIL_UNSOL_CDMA_PRL_CHANGED constant typo (1/2)
+c9df086 Add support for Samsung extended AGPS
+3307cd4 Add tile dimensions into snapshot and use it for setting tile rect
+232fce4 core/SystemUI: EL translations
+e7b43b6 Show advanced reboot if using an insecure lock screen
+ef641f0 frameworks_base: ES translations
+f9655e3 Core: HU translation
+aa18a86 Merge "Frameworks_base: PT-BR translations" into cm-10.1
+6801be4 Frameworks_base: PT-BR translations
+b235f9f Merge "Frameworks : move custom strings to cm_strings.xml" into cm-10.1
+4b5a935 Signal strength: add more checks to signal strength,
+3dbc6ca Telephony: Consider EVDO ecio zero value as valid.
+e1e571b Frameworks : move custom strings to cm_strings.xml
+ba124a9 Allow device admin policy to override policy boolean state.
+7abdd88 Fix SELinux.java doc errors
+18f5453 Restore support for labeling non-system apps based on their certificate.
+526e481 Drop "SE Android" from strings.
+21a5771 Replace SEAndroid with SELinux.
+1c6f7a8 Add data validation on seinfo labels.
+62d90c6 Follow AOSP behavior for seinfo assignment.
+c22f6e0 Save off the seinfo value with packages.list.
+1f7f153 Bring install-time code inline with AOSP.
+7e09296 Move seinfo and install-time changes to inside PMS.
+c6767eb Change DPMS code to accommodate enforce states on boot.
+a5dfcb4 Update location of policy files
+81a5623 Proper security labeling of multi-user data directories.
+2a091b4 Implement Device Admin API for MMAC
+b00a063 Apply MMAC changes from master.
+36d685c Simplify check during admin removal for whether to cleanup SELinux
+7adb00f Remove SELinux additions from public API
+ae74c84 Add APIs to allow Device Admins to change SELinux settings
+88aeb65 Save off the seinfo value with packages.list.
+e87ce9f Added SELinux enforcing status and booleans keys to secure system settings.
+e6a3372 Add seinfo parsing to PackageManagerService.
+8bf2351 Make notification-shade-collapse-after-dismiss behaviour configurable.
+c233a5b Improve notification shade collapse code.
+6c33ad3 Always prevent wake on home keypress when kl config does not contain WAKE
+6e84c45 systemui: Add CONNECTIVITY_INTERNAL permission
+b11c6c0 Framework base: Update italian translation
+6c5dccf Merge "Base: CS translation" into cm-10.1
+f59f419 Merge "Core: Update Polish translation" into cm-10.1
+af38925 Merge "SystemUI: Update Polish translation" into cm-10.1
+d29bdbd Core: Update Polish translation
+17ab11b SystemUI: Update Polish translation
+d9eefe3 Merge "Fix occasionally flickering music control widget." into cm-10.1
+605a6be Revert "Auto-close if you swipe away the last notification."
+780caff Fix occasionally flickering music control widget.
+e5fd713 Merge "Always call out to KeyguardHostView when something in our state changes." into cm-10.1
+12a5f6e Merge "Frameworks-base : FR translation" into cm-10.1
+6394ccf Merge "Core: NL translation" into cm-10.1
+
+   * frameworks/native
+1b385b4 Configure dalvik heap parameters for low memory devices
+
+   * frameworks/opt/telephony
+da0db0b HTCQualcommRIL: fix data drops when switching state
+f0e75f8 Merge "Introduce HTCCDMAQualcommRIL for HTC CDMA devices" into cm-10.1
+0ae5729 Merge "Properly notify of precise call state change after connection hangup." into cm-10.1
+7fd8d66 Introduce HTCCDMAQualcommRIL for HTC CDMA devices
+332fb18 Properly notify of precise call state change after connection hangup.
+23bd607 SamsungQualcommRIL: fix NPE
+a0ca848 Samsungqualcommril: fix parser
+9b879a1 Merge "Revert "SamsungQualcommRIL: always convert hex to int."" into cm-10.1
+94987a5 Revert "SamsungQualcommRIL: always convert hex to int."
+61aa925 Fix NRE on sending multipart texts.
+7b04982 SamsungQualcommRIL: Add Operators class
+082b5bc Fix RIL_UNSOL_CDMA_PRL_CHANGED constant typo (2/2)
+0797705 SamsungQualcommRIL: fix HD voice
+b8df474 SamsungQualcommRIL: add more carrier numbers
+1c37d0a SamsungQualcommRIL: fix showing gsm operator numbers.
+ef61f36 SamsungQualcommRIL: always convert hex to int.
+6a8675a Merge "SamsungQualcommRIL: fix passing isgsm flag" into cm-10.1
+ae78785 SamsungQualcommRIL: fix passing isgsm flag
+cd143d0 SMS Broadcast result receiver fix: Fix bug where sentIntents is pulled from the wrong bundle key.
+b20f4c9 Merge "Refactor SMS Middleware and SMS Send path." into cm-10.1
+
+   * hardware/libhardware
+c41a16b Merge "Add psc field to AGpsRefLocationCellID struct" into cm-10.1
+652a228 Add psc field to AGpsRefLocationCellID struct
+
+   * hardware/qcom/audio-caf
+8cc6f7b alsa_sound: Add support for custom LPA buffer size
+f1e8165 Merge "alsa_sound: Add support for sound card in Galaxy S4 Mini" into cm-10.1
+d0f89cc alsa_sound: Add support for sound card in Galaxy S4 Mini
+452a715 audio-caf: Trigger immediate doRouting() on setMode() change to normal
+8aebe85 Merge "Revert "alsa_sound: Only route if devices change" breaks in call audio" into cm-10.1
+d560975 Revert "alsa_sound: Only route if devices change" breaks in call audio
+8995c4a alsa_sound: Fix compile error with BOARD_HAVE_NEW_QCOM_CSDCLIENT
+c3a461a msm8660: prevent input routing during VOIP recording
+4302f22 alsa_sound: Only route if devices change
+
+   * hardware/qcom/camera
+17542ba Qualcomm Camera Hal: add 12.8MP and 13MP camera resolutions.
+
+   * hardware/qcom/media-caf
+f6378da mm-video: Fix compile error on 7x30.
+
+   * hardware/ril
+73aea09 Merge "Rild: Ril should try to write again to the socket EAGAIN error" into cm-10.1
+
+   * hardware/ti/wlan
+4e0d010 wl12xx: fix unbalanced wakelock in IRQ-while-suspended path
+
+   * libcore
+ebe07a6 Apply a variation of the suggested app-level patch to SecureRandom
+
+   * packages/apps/Apollo
+edc0a1e Allow opening audio from any content provider, not only the media provider.
+ef0637f Apollo: Prevent FC in cache initialization
+f1b4d02 Apollo: zh-TW translations
+3b6045d Merge "Apollo: Make albums with the same name to use respective album-art/date/etc." into cm-10.1
+77a24f6 Apollo: Make albums with the same name to use respective album-art/date/etc.
+01fab09 Apollo: SK translation
+48d4693 Merge "Apollo: Add menu action to delete current track." into cm-10.1
+2c26983 Apollo: Add menu action to delete current track.
+6021725 Merge "Add some (optional) debug logging to the player service." into cm-10.1
+ed7c82f Merge "Cleanup: Use only one method to shut down the service instead of two." into cm-10.1
+ab7dece Merge "Apollo:add: tradtional chinese translation" into cm-10.1
+6ed8f22 Apollo: LV translation fix
+3320aa9 Apollo: open album by id rather by name and artist.
+3f090d6 Apollo:add: tradtional chinese translation
+e46607c Add some (optional) debug logging to the player service.
+7aa615e Cleanup: Use only one method to shut down the service instead of two.
+
+   * packages/apps/Bluetooth
+af9e902 Bluetooth: CA translations
+
+   * packages/apps/Browser
+92e9a88 Browser: CA translations
+1106672 Browser: FI translations
+864618f Merge "Add DuckDuckGo search engine for en-gb locale (both regional and region agnostic version)" into cm-10.1
+
+   * packages/apps/CMAccount
+17e9e55 CMAccount: FR translation
+9f179ea Do not store hashed password on device
+2424fc9 Use ECDH instead of RSA for key exchange
+8f10aed CMAccount: Get rid of bacon
+c341d6b Merge "CMAccount: NL translations" into cm-10.2
+57740d8 CMAccount: NL translations
+535ef61 Merge "CMAccount: Cleanup xml resources" into cm-10.2
+4dab926 CMAccount: fix zh-TW translations
+8316b1d CMAccount: zh-TW translations
+f4a2123 CMAccount: ES translations
+2210c5a CMAccount: Cleanup xml resources
+4cdf36e Merge "CMAccount: EL translations" into cm-10.2
+b778cfd Merge "CMAccount: SK translations" into cm-10.2
+5926c2d CMAccount: SK translations
+556f457 CMAccount: PT-BR update translations
+c348819 Automatically bring up Google account setup during wizard.
+0174418 Merge "CMAccount : FR translation" into cm-10.2
+6380b97 Merge "CMAccount: Initial German translation" into cm-10.2
+6a1c609 Merge "fix: hex encoding in digest() drops leading zeros (0)" into cm-10.2
+fbfe219 CMAccount: EL translations
+1cad074 CMAccount : FR translation
+0771e07 CMAccount: Initial German translation
+60e58c4 Merge "Show CMAccount as 'CyanogenMod' instead of 'CyanogenMod Account' in the account list." into cm-10.2
+6b66008 Merge "CMAccount: FR translation" into cm-10.2
+5281bb9 CMAccount: FR translation
+e71ef25 Merge "CMAccount: HU translation" into cm-10.2
+87521ee CMAccount: HU translation
+0c4fc90 Show CMAccount as 'CyanogenMod' instead of 'CyanogenMod Account' in the account list.
+77770ef Add BOOT_COMPLETED broadcast receiver
+39b6316 fix: hex encoding in digest() drops leading zeros (0)
+a137a6f Merge "CMAccount: RU translation" into cm-10.2
+39914da CMAccount: RU translation
+1b348e6 CMAccount: FI translations
+d1ddc66 Use HMAC to verify symmetric key
+7e64bd3 Add missing DEVICE_SALT
+4af16e3 Derive HMAC secret from hashed password and salt
+0bc7df9 Use HMAC-SHA512 for public key verification
+bfd64d6 Remove firstname/lastname requirement.
+7603655 Removed legacy params.
+71280b2 Make note that we need to use HMAC for key verification.
+ef31c1c Fix trailing backslash
+0c23078 Only log if we have a network response.
+b7695ef Remove dead code.
+2c717ba Update terms and Privacy Policy URLs.
+a25860e Updates ALL THE THINGS!
+f4fdbaa Use AlarmManager.INTERVAL_DAY instead.
+bed42c8 Put the cmid server url into a resource that can be overridden.
+92dee9c Ping cmid service every 24 hours (if there is an account configured)
+44658bb Force the dialog to full height prior to the page loading.
+f6d5ec4 License ALL THE THINGS
+2bcad70 Use framework libs instead of local.
+e24dcc8 Don't allow entering a different account on password change.
+9ceade7 Remove static reference to Application object. Use AppGlobals instead.
+52c56b3 Clean up the strings
+8f3a143 Fixup the resources so they look decent in landscape across densities.
+84efedf Just use the app icon.
+b219718 Move learn more show dialog method to utils.
+33894c7 Hold on to one instance of StatusBarManager.
+c7583a5 QA-70: Do not process messages for other accounts
+2e2a994 Move sim missing warning to a dialog.
+7ec3831 Removed unused constant.
+79c22aa Image asset refinement.
+8f45dab Removed unused asshats.
+9285937 Force on gps if it is off.
+64a256f Disable status bar and soft buttons.
+a7ae6d6 Update location settings page style.
+60a8279 Add link for terms of service.
+d780078 Added dialog to show "Learn More" page.
+56eafca Added a launchWifiSetup overload so you can get the result back to a fragment.
+699c1c8 Refactored profile creation error handling.
+811ea89 Use the correct account endpoint
+38f1d71 Profile endpoint renamed to account
+8d33421 Prevent NPE in DeviceFinderService
+4bc7927 CyanogenMod should always be camel case
+969d4c7 Prefill email field for existing accounts
+04dbed7 Save account password if account exists
+5ca50c9 Prevent NPE when starting DeviceFinderService
+1071cf0 Use same icon that it used in the action bar.
+763b96f Updated UI polish.
+d3975c6 Get rid of image res id constructor overload.
+3abc8f9 Use updateCredentials API for password reset.
+0d57188 Handle password reset
+532e109 Add method to expire refresh token
+723e883 UI polish for light theme.
+68368ca Remove previous/next button bar.
+9833811 Add page transformer animation and next action item.
+8d47feb Rename the layout file to be consistent with the other page layout files.
+5fb53f4 Remove SIM missing page. This should be a warning dialog.
+55a63cf Use a master colors resource.
+8bd6805 No need to register GCM here anymore.
+8c85bb0 Fix NRE. Change text on TOS
+1f0956b Fixes to work with CM build.
+3aeb21e Do not create a new Intent to start GCMIntentService
+d8d91f9 Do not create a new Gson instance all the time
+991bd49 Forward GCM intents to GCMIntentService
+3d7b5cc Send a key_exchange_failed message
+5edee15 More iv to initializationVector renaming
+afd91b2 Rename iv to initializationVector
+9cab1a9 Throw AssertionErrors during encryption/decryption
+7b5992d Use Base64.NO_WRAP instead of replacing line breaks
+9e3ea31 Start DeviceFinderService with START_STICKY
+c59e38a Do not abbreviate increment
+60ce464 Fixes: Location not always reported to browser
+c5a240b Remove dead code
+922553c Hook up wipe
+38890f2 More LocationMessage refactoring
+1d71c84 Refactor LocationMessage construction
+d34657d Do not pass AuthClient and sessionId to LocationMessage
+cdae79f Use of CiphertextIvPair was a bit redundant
+f6e57ea Move EncryptionUtils into util namespace
+3137387 Refactor SecureMessage to EncryptedMessage
+bc2511c Refactor gcm.model.ChannelMessage
+69e802d Remove report_location
+1df9667 Store, track and verify sequences
+701879c Increment sequences
+193e2db Working find my device
+1c44b9e Decrypt secure messages
+f244157 Add AES decrypt helpers
+5afac7a Setup symmetric key database
+111b709 Working key exchange
+52a555f Properly handle the case where there is no network reponse.
+197eafb Enforce a min 8 password on CMID account creation.
+abe03c6 Use the built in error overlays for edit texts.
+80b7c01 Only disable the setupwizards on completion.
+03d83fa Listen for package changes until play service updates.
+7ea04ee Save the password hash when adding the account.
+a1b378b Lister for account changes when adding CMID account.
+91ab3ad Added some helper methods.
+b6c40f7 GCM register improvements
+0e30235 CMID Fixes:
+65ffba8 Don't pass around an account so much.
+1d912f0 Add token exchange for device wipe and device location commands.
+9335943 Refactor for updated refresh token flow.
+c1146d5 Add start handshake command.
+b2a8acc Report accuracy.
+7382b11 Added params for token handshake and location accuracy.
+29f2bce Added provider for cache handshake tokens
+471fd49 Refactored token refresh logic.
+76d8bb5 Test app needs platform cert as well.
+4c9dc54 Add date/time settigns to setup wizard.
+641276a Remove unused member var.
+1097667 Changed api path to match new Server api.
+8690cb8 Make the login failed dialog more user friendlier.
+fcbdf3c Add location settings as a setup setup.
+6508732 Remove account settings.
+b904fa8 Add remote wipe
+46bf976 Make SetupWizardActivity immersive
+da92587 Add OS version when pinging server.
+e902f99 Don't allow the user to skip wifi setup without a warning.
+f4d43d3 Refactor setup page load logic.
+7a67799 Fix error on no network.
+afa3669 Clean up imports.
+06a6a1c Fix Language list shows blank spaces bug.
+ed607ef Add confirm password when creating a CMID.
+e8f7d29 Add check for gapps.
+f80afd0 Use OnPreferenceChangeListener instead.
+1eca5aa Don't add transaction to backstack.
+af6052f Fix NPE on sim check.
+006ca3b Add some initial dpi specific images and tweak layouts.
+69f94ee Bacon
+672bba0 Strings for update test app.
+fe1447e CMID Setup Wizard implementation.
+bd6c9ef Change launch config to singleTop so we can get Activity results.
+6e909e4 New strings for setup wizard.
+07e7797 Add button to enable just the Google setup wizard.
+1331687 No longer using general option page.
+0838251 Renamed generic setup page layout.
+768f6d2 Removed the account list step.
+02add85 Added a quick way to re-enable the setup wizard for testing.
+3b7a59d Re-enable setupwizard intent filter.
+3e1f0d1 Fix typo in welcome string.
+1c15008 Use device reset persistent identifier.
+2f9ffe5 Fix relative paths.
+6eb887f Clean up kludgy blocking request token request.
+bc0180e Add Google Play dependencies.
+6aea55e Added settings to enable/disable device finder.
+3fa08f7 Added some global constants.
+4dde300 Added generic cmid util helper class.
+b1b895d Finish this activity when creating or authenicating a profile.
+1f47067 Refactored cmid api logic to api package.
+b5db6f6 Added api package for interfacing with cmid api.
+e3d4c3b Add GCM implementattion for Device Finder.
+aae0b16 Don't send result code.
+4b08052 Don't DIAF if the server DIAFs.
+721a0d1 Only call src dir.
+92a9d89 Move app up to top level folder
+29fbbaa Added CMID Android account type/authenticator
+0f6e769 Added a simple manual test activity.
+
+   * packages/apps/CMFileManager
+208960a CMFileManager: Check write operation
+73d6b66 CMFM: EL translations
+b365a6d Merge "CMFileManager: RU translation" into cm-10.1
+168fc8f CMFileManager: RU translation
+5a9f817 Merge "CMFileManager: Simplified Chinese Translations" into cm-10.1
+b2e68bc Merge "CMFileManger : FR translation" into cm-10.1
+546bd2d CMFileManager: Simplified Chinese Translations
+944c300 CMFileManger : FR translation
+048dc60 CMFileManager: DA translation
+83d84b9 Merge "CMFileManager: HU translation" into cm-10.1
+b28e2ce Merge "Revert "CMFileManager: ET translations"" into cm-10.1
+182520a Revert "CMFileManager: ET translations"
+947d83a CMFileManager: HU translation
+5083c9f Merge "CMFileManager: ET translations" into cm-10.1
+8950212 Merge "CMFileManager: CS translation" into cm-10.1
+136fba1 CMFileManager: ET translations
+2bd6a80 Merge "CMFileManager: IT translations" into cm-10.1
+761e08f Merge "CMFileManager: HU translation" into cm-10.1
+d50ed67 CMFileManager: ES translations
+4380c42 Merge "CMFileManager: PT-BR translations" into cm-10.1
+7f762cf CMFileManager: CS translation
+7be0c4f Merge "CMFileManager: NL translation" into cm-10.1
+90791f1 CMFileManager: HU translation
+2579907 CMFileManager: Update German translation
+a2a4136 CMFileManager: IT translations
+623f148 CMFileManager: PT-BR translations
+41a6bbc CMFileManager: NL translation
+81a3539 CMFileManager: Simplify selection string creation
+347623e Merge "CMFileManager: SK translation" into cm-10.1
+f92e77c CM File Manager: Update italian translation
+5fe88a3 CMFileManager: SK translation
+cb79ef1 Merge "CMFileManager: HU Translation" into cm-10.1
+d2caad2 CMFileManager: HU Translation
+f3544f1 Merge "CMFileManager: PT-BR translations" into cm-10.1
+47c73e3 Merge "CMFM: NL translation" into cm-10.1
+29d3450 CMFileManager: CS translation
+fe3d6d9 CMFM: EL translations
+9a77749 CMFileManager: PT-BR translations
+16a68c4 CMFM: NL translation
+4dececd CMFileManager: ES translations
+cd98772 Allow pluralization of selection string.
+322a33a CMFileManager: Make use of plurals correctly
+5a5f271 Merge "CMFM: make copy/paste action more understandable" into cm-10.1
+629817e Merge "CMFileManager: RU translation" into cm-10.1
+2dc03f6 CMFileManager: RU translation
+
+   * packages/apps/CMUpdater
+ac468fb CMUpdater: CA translations
+21adc78 Use download.cyanogenmod.org instead of get.cm
+5aab90c CMUpdater: SV translations
+70b7435 CMUpdater: FI translations
+0e8de8b Merge "Fix UnsupportedOperationException." into cm-10.1
+5f47c56 Fix UnsupportedOperationException.
+f5e52c6 CMUpdater: Simplified Chinese Translations
+334d145 CMUpdater: DA translation
+65966db CMUpdater: NL translation
+4976c77 Merge "CMUpdater: SK translation" into cm-10.1
+c0b9cb8 Merge "CMUpdater : FR translation" into cm-10.1
+50075d8 Merge "CMUpdater: EL translations" into cm-10.1
+c118ceb Use newly-provided API level to compare builds.
+ea3dbbf CMUpdater: SK translation
+24615b2 CMUpdater: EL translations
+c3311aa CM Updater: Update italian translation
+46134ca Merge "CMUpdater: CS translation" into cm-10.1
+4ea2889 Merge "CMUpdater: NB Translation" into cm-10.1
+1d9e22d Merge "CMUpdater: Update Polish translation" into cm-10.1
+c29d04e CMUpdater: Update Polish translation
+0369add CMUpdater : FR translation
+0056573 CMUpdater: ES translations
+f2fb108 Merge "CMUpdater: SK translation" into cm-10.1
+bcf6ec0 Merge "CMUpdater: RU translation" into cm-10.1
+f4052f0 Merge "CMUpdater: HU translation" into cm-10.1
+
+   * packages/apps/CMWallpapers
+453aae8 CMwallpapers: CA translations
+4fd8df0 CMWallpapers: CA translations
+
+   * packages/apps/Calculator
+9ea090e Calculator: Prevent pasting in TextView in lockscreen widget
+e50e4de Calculator: Fix bin and hex modes and improve logic
+cb754ac Calculator : Simplified Chinese translation
+5227f37 Calculator: DA translation
+ecaa453 Calculator: EL translations
+c7f7606 Merge "Calculator: Update Polish translation" into cm-10.1
+74ac530 Calculator: Update italian translation
+a40a4ac Merge "Calculator: CS translation" into cm-10.1
+e3b7fd6 Calculator: Update Polish translation
+0209684 Merge "Calculator : FR Translation" into cm-10.1
+
+   * packages/apps/Calendar
+aba1cd1 Calendar: CA translations
+49dad72 Revert "Calendar: CA translations"
+36f18e4 Calendar: CA translations
+621e8ba Calendar: FI translations
+
+   * packages/apps/Camera
+3041ad0 Camera: Reuse the ScreenNail's SurfaceTexture
+70fbbd5 Camera: EL translations
+321b948 Merge "Camera: update Japanese translation." into cm-10.1
+cc38108 Merge "Camera: RU translation" into cm-10.1
+b49481d Camera: update Japanese translation.
+9dd94c4 Camera: RU translation
+4813b8f Camera: Simplified Chinese Translations
+92e15d6 Camera: Fix translation derp
+f5bf70b Merge "Camera: DA translation" into cm-10.1
+0950142 Camera: Update German translation
+1982943 Merge "Camera: IT translations" into cm-10.1
+8841f19 Camera: DA translation
+99a514c Camera: IT translations
+9decb28 Camera: PT-BR translations
+a4cb837 Merge "Camera : FR Translation" into cm-10.1
+c38f230 Merge "Camera: CS translation" into cm-10.1
+5e579bf Camera : FR Translation
+ed913b2 Merge "Camera: Add Japanese translation for cm" into cm-10.1
+42cd303 Merge "Camera: HU translation" into cm-10.1
+31f8952 Merge "Camera: PT-BR translations" into cm-10.1
+b34db9c Camera: NL translation
+506e867 Camera: Add Japanese translation for cm
+33757f3 camera: dont call cancelAutoFocus if the preview is stopped
+83a753a Camera: HU translation
+bae9197 Camera: ES translations
+4915fae Camera: CS translation
+772673c Camera: PT-BR translations
+934db9a Camera: Add red-eye flash mode
+5d10e2f Merge "Camera: Add some Samsung color effects" into cm-10.1
+79fa291 Merge "Camera: Fix some derp" into cm-10.1
+d610191 Camera: Update German translation
+641eb06 Camera: Fix some derp
+b903ac7 Camera: HDR: don't reset focus manager when HDR is active.
+84c5dd4 Merge "Camera:add traditional chinese translation" into cm-10.1
+2506a0f Merge "Camera: Update italian translation" into cm-10.1
+c360b69 Merge "Camera: Add translatables" into cm-10.1
+03b8004 Merge "camera: fix image capture review mode when zsl is enabled" into cm-10.1
+1b37394 Camera: Add translatables
+176b77e Camera: HDR:  fix rotation issues.
+cc3c43b Camera: Update italian translation
+32e043e Camera: Add some Samsung color effects
+747295b camera: fix image capture review mode when zsl is enabled
+1f357c0 Camera: HDR: fix low exposure on samsung hardware.
+8b19890 Camera: HDR: convert YUV422P / YV16 format to JPEG
+ef79ff0 Camera: Force software HDR if the camera has hardware HDR and HW HDR is broken due to broken implementation issues.
+69a931c show the actual shutter speed
+6dee787 Camera:add traditional chinese translation
+b2b7658 Camera: PT-BR translations
+67f4844 Util: remove redundant check for ShutterSpeed
+d510093 Add a setting for Shutter Speed
+
+   * packages/apps/Contacts
+8e9a5fb Contacts: fixed FI translations
+c79f7ad Contacts: FI translations
+2586e79 Fix call stats header and empty list text appearing prematurely.
+e27e7aa Fix NPE.
+3b440a6 Merge "Fix summary header update after filter change." into cm-10.1
+b6a352a Contacts: HU Translation
+1352cc0 Fix summary header update after filter change.
+
+   * packages/apps/DSPManager
+b6f9ddb DSP Manager: EL Translation
+bc46ceb DSPManager: EL translations
+fcb4cb0 DSPManager: grammar correction
+611a645 Add LV translation
+
+   * packages/apps/DeskClock
+b3d4172 DeskClock: CA translations
+257c986 DeskClock: FI translations
+b70f641 DeskClock : Simplified Chinese translation
+4c7415e Merge "DeskClock: RU translation" into cm-10.1
+130f943 Merge "DeskClock: DA translation" into cm-10.1
+04e1249 DeskClock: DA translation
+c3cb971 Merge "Set vibration toggle as gone if vibration not available" into cm-10.1
+23a90d6 Fix misalignment of alarm tone and profile buttons with icons
+168bb4a Set vibration toggle as gone if vibration not available
+93f5407 DeskClock: RU translation
+e9f47c5 DeskClock: EL translations
+
+   * packages/apps/Email
+c46630e Email: CA translations
+a370abc Email: FI translations
+
+   * packages/apps/Gallery2
+189df67 Gallery: Fix logic typo
+ca78969 Gallery: Prevent display "Show on map" menu if no geo view is present
+3c851e8 Merge "Fix activity stack when restarting the screen nail" into cm-10.1
+77f2afb Typo in manifest
+
+   * packages/apps/LegacyCamera
+b03ba46 LegacyCamera: CA translations
+
+   * packages/apps/LockClock
+5e3a6c1 Merge "cLock: Listen for ACTION_ALARM_CHANGED" into cm-10.1
+8d230af cLock: Listen for ACTION_ALARM_CHANGED
+1a6aa5b cLock: CA translations
+9b9671e cLock: CA translations
+2005bfe Merge "LockClock: Update Polish translation" into cm-10.1
+8aefffb cLock: Fix hdpi weather layout
+3a4c5fd LockClock: Update Polish translation
+
+   * packages/apps/Mms
+bc514c7 Don't show quick message popup over secure lockscreen.
+55bf34c Mms: findPart may still be null
+0808548 Mms: RU translation
+2757db8 MediaModelFactory.findPart moved to SmilHelper for use in both places. findPart updated to include looking in ContentId even if the "src" does not have the cid: prefix. Noticed from a Stock GS4. SmilHelper now has a fixup(...) method which removes duplciate parts.
+b9b8317 Merge "Fix IllegalStateException." into cm-10.1
+52bbf13 Mms: use existing setting instead of using MmsConfig.
+913462c Fix IllegalStateException.
+919279c Merge "Don't recycle messages by default." into cm-10.1
+0a7dc43 Mms: PT-BR translations
+
+   * packages/apps/Phone
+1f6962b Fix ringer not stopping when call is blacklisted.
+a7f9d43 Phone: CS translation
+27d169b Phone: EL translations
+b7506b7 Merge "Phone: Simplified Chinese Translations" into cm-10.1
+9c1d415 Merge "Phone: DA translation" into cm-10.1
+fb421e6 Phone: Simplified Chinese Translations
+32f217e Phone: DA translation
+a58b10e Merge "Phone: RU translation" into cm-10.1
+4fdf4b3 Phone: Update German translation
+ac5cb26 Phone: RU translation
+d0f21c0 Merge "Phone: IT translations" into cm-10.1
+9d1d1e2 Phone: IT translations
+3f504eb Merge "Phone : FR translation" into cm-10.1
+ab314f1 Merge "Phone: HU translation" into cm-10.1
+76be6e1 Merge "Phone: PT-BR translations" into cm-10.1
+1224a11 Phone: NL translation
+6a44466 Phone: HU translation
+b1bb024 Phone: PT-BR translations
+bdf2fee Phone: ES translations
+bd7d8f7 Phone : FR translation
+90f6990 phone: Add option for setting device phone number (squashed)
+a974719 Phone: correct summary of national roaming [translation]
+e0c9f44 Phone: Update Polish translation
+
+   * packages/apps/Settings
+f1bf5af Settings: CA translations
+e875f66 Merge "Settings: Change NB translation for Launcher" into cm-10.1
+2923439 Fix NL translation
+f5ec4c1 Settings: Change NB translation for Launcher
+bc51812 Settings: improve EL translations
+4255ecd Settings: EL translations
+23ebbde Merge "Settings: FR Translation" into cm-10.1
+f97bcee Settings: Update German translaion
+e16e472 Settings: FR Translation
+9028b09 Merge "Settings: DA translation" into cm-10.1
+937df1c Also remove preferences if app is installed, but disabled.
+51328ad Settings: DA translation
+4f5e12e Settings : Simplified Chinese translation
+f149894 Merge "Settings: CS translation" into cm-10.1
+48352d9 Merge "Settings: RU translation" into cm-10.1
+4407082 Merge "Settings: IT translations" into cm-10.1
+248a2f2 Hide the camera widget option if no camera on device
+fd50f7a Settings: RU translation
+fdc3004 Merge "Settings: HU translation" into cm-10.1
+cc9525b Settings: ES translations
+ea0ecfd Settings: IT translations
+84ef117 Merge "Settings: NL translation" into cm-10.1
+c321f04 Merge "Minor typo fix Wi-FI -> Wi-Fi" into cm-10.1
+56fc440 Settings: PT-BR translations
+a97896c Merge "Sort disabled apps to the end of the list in privacy guard manager." into cm-10.1
+003a4a6 Merge "Fix app selection when adding apps to app groups." into cm-10.1
+2959699 Settings: CS translation
+aeb38b4 Settings: NL translation
+3d40641 Sort disabled apps to the end of the list in privacy guard manager.
+51b64b3 Fix derp.
+6d18c09 Settings: HU translation
+0e9d44b Fix app selection when adding apps to app groups.
+bd78e70 Merge "Make notification-shade-collapse-after-dismiss behaviour configurable." into cm-10.1
+103c61c Minor typo fix Wi-FI -> Wi-Fi
+45f9174 Merge "Settings: CS translation" into cm-10.1
+f8e7fde Merge "Settings: CS AOSP translation" into cm-10.1
+28a91a1 Merge "Settings: update Japanese translation." into cm-10.1
+8244fc0 Merge "Settings : FR translation" into cm-10.1
+a8ed3ec Merge "Settings: EL translations" into cm-10.1
+b55f7fa Make notification-shade-collapse-after-dismiss behaviour configurable.
+b070699 CellBroadcast: Disable App links on wifi-only devices
+5a29d43 Merge "Settings: ES translations" into cm-10.1
+27a9c83 Settings: CS translation
+68b5148 Settings: EL translations
+bda0e89 Settings: ES translations
+d1f1fb4 Hide the AM/PM preference completely if using a 24-hour clock
+2413c24 Merge "Settings: NL translations" into cm-10.1
+507fbd4 Settings: update Japanese translation.
+0b4dc3c Settings: CS AOSP translation
+41f3419 Merge "Settings: Update Polish translation" into cm-10.1
+dd7ce06 Merge "Add a quick SELinux mode toggle" into cm-10.1
+22bf8e8 Add a quick SELinux mode toggle
+fcd38b6 Settings: NL translations
+1d0cc23 Fix IllegalArgumentException in Privacy Guard Manager
+300fa0b Merge "Settings: Update italian translation" into cm-10.1
+9a85e09 Merge "Settings: CS translation" into cm-10.1
+8f1a8f5 Settings: Update Polish translation
+58ee194 Settings : FR translation
+d6163ac Settings: Update italian translation
+2f644d4 Merge "Settings: HU translation" into cm-10.1
+
+   * packages/apps/Torch
+d558d45 Torch: FI translations
+8db5d86 Torch: DA translation
+62eaa12 Torch: EL translations
+635758d Merge "Torch: NB translation" into cm-10.1
+
+   * packages/apps/Trebuchet
+2e2451f Trebuchet: CA translations
+e9aa9f0 Trebuchet: FI translations
+061f496 Trebuchet : Simplified Chinese translation
+1aee8ff Merge "Trebuchet: EL translations" into cm-10.1
+06a8d76 Merge "Trebuchet: Fix MDPI layout" into cm-10.1
+bfb4ca4 Trebuchet: EL translations
+247aa3f Trebuchet: HU translation
+15472de Merge "Hotseat: Disable hitsPreviousPage if hotseat is vertical" into cm-10.1
+1a6379d Hotseat: Disable hitsPreviousPage if hotseat is vertical
+12d0e15 Trebuchet: Update Polish translation
+
+   * packages/inputmethods/LatinIME
+7aeb6f4 LatinIME: FI translations
+
+   * packages/providers/TelephonyProvider
+0f829fe Improve delete handling code.
+
+   * system/core
+d7bf4df mkbootimg: Add --dt parameter to specify DT image
+8399419 Fix failure to build from source with modern _host_ glibc/gcc.
+9df8c47 fs_mgr: Drop the context mount option from non-selinux builds
+3cd83bf Revert "fs_mgr: Drop the context mount option from non-selinux builds"
+a73b226 fs_mgr: Don't assume all fstab entries have options
+806fc56 fs_mgr: Drop the context mount option from non-selinux builds
+1a18b8b toolbox: Add levelFromUid categorization support to restorecon
+d0808c7 Fix building without SELINUX
+482ec0c Explicitly add the theme manager's AID to fs config
+0298df1 Add support for socket security context specification.
+2c22ff6 Fix perms on /data/security
+ed9fa86 sys/capability.h does not exist in the 4.2 bionic.
+01996ab Sync with master auditd.
+911cbea Correct run-as with seinfo parsing capability.
+44677e4 Auditd initial commit
+1f34e1c Reserve AID_AUDIT
+345e3d2 Fix mode on /data/security.
+cef7220 Create a new location for /data policy files
+0cbf7ea toolbox: silence some compiler warnings
+56ef4f0 Change setsebool syntax to be consistent with other init built-ins.
+0995719 Label sockets consistently with the seclabel value if specified.
+fd44b1c Add persist.mac_enforcing_mode property
+7db7210 Document the SELinux extensions to the Android init language.
+5841849 run-as:  Get seinfo from packages.list and pass to libselinux.
+e46e20d run-as:  set the SELinux security context.
+f97984a Allow system UID to setenforce and set booleans for SELinux.
+7cee873 Add support for -R (recurse) to init chown builtin.
+ac8ccac init.goldfish.rc: use ext4
+fee496b rootdir: Set permissions for additional interactive sysfs nodes
+
+   * system/extras
+2f98a98 make_ext4fs: fix static utility executable, this time for SELinux
+
+   * vendor/amazon
+6248b30 Merge pull request #4 from KFire-Android/cm-10.1
+3699809 add jemlte wan binaries
+0af4a0e tate: add specific camera dcc files + provisioning
+72088b4 jem: add specific camera dcc files + provisioning
+36452a0 bowser-common: remove shared camera dcc files, moving to specific devices
+a40c0f0 bowser-common: add Dolby Decoder libs
+
+   * vendor/asus
+afc914e Merge pull request #42 from chrmhoffmann/cm-10.1
+4970c97 tf300t: blobs from 10.6.1.27.1
+
+   * vendor/bn
+5fe4624 Merge pull request #12 from steven676/cm-10.1
+8538843 encore: remove powervr.ini from proprietary blobs
+19f22a8 Merge pull request #10 from Hashcode/cm-10.1
+d7973f2 add TI license file
+dbc629f Merge pull request #8 from Hashcode/cm-10.1
+876bb79 add TI omap4470 PVR bins
+c0f0d00 add proprietary files for NookHD/NookHD+
+
+   * vendor/cm
+2fba8eb 10.1.3-RC2
+e116c60 Bump version for 10.1.3-RC1
+b8f7758 add Kindle Fire contributor
+8b9f177 Use Package Manager to disable stock OTA
+eb7754a otablock: also disable BroadcastReceiver
+5bdc735 Revert "otablock: Disable only the actual activity, leave the service on"
+22a4354 otablock: Disable only the actual activity, leave the service on
+a0919a9 Prevent stock OTA activities from running in CM
+754bef5 sepolicy: Start CM Common sepolicy
+053c365 Bring back the old CyanAlarm alarm tone
+ab97793 Fixed APN setting for LV LMT MMS
+80cd7fe Correct BPL APN to Vodafone IN/India
+589f128 Correct Claro PR APN
+dcf176c Add C-Spire APNs
+3019710 Drop Proxy from Digitel APN
+de04aba Remove Proxy from Globul APN
+869151c New apns settings for Everything Everywhere (new UK operator)
+ba2ec9e android-vendor-cm: Renamed T-Mobile SK to Telekom SK in APNs list
+8475d72 Rename Babel to VoicePlus
+8994907 selinux: When adding userdata labels, do cache too
+b52874d selinux: Use a more reliable sentinel to flag /data labelling
+d2d1a7f Add SELinux filesystem relabeling to init
+1f14343 Add Babel in preparation
+5d4847b remove libGoogleAnalyticsV2. This is contained in external/google now.
+
+   * vendor/htc
+03b5602 Merge pull request #6 from HoxPlusCMOfficial/cm-10.1
+e1bd3f0 enrc2b: added audio libs from endeavoru
+f811eca Added enrc2b proprietary files
+4e49790 m7-common: update camera proprietary files
+265303a m7-common: remove unused mfg.bin
+0d23b6f m7-common: remove NFC firmware for on-chip version
+c9dec4a evita: use original NFC firmware path
+6986af0 m7-common: add Irda files
+4bb3551 s4-common: fix typo in Widevine lib name
+f9a4f1c s4-common: Add Widevine libs
+94d4740 m7-common: Add Widevine libs
+9388efa s4-common: use face detection libs from HTC m7
+f4d21e6 s4-common: remove modem and q6 firmware
+b971955 m7-common: GSM: update libpn544_fw.so from Google Edition
+
+   * vendor/motorola
+af5cae2 Merge pull request #53 from Motorola-OMAP4-CM/cm-10.1
+dac29ba umts_spyder: Use gps.spyder from spyder 9.8.2O-72_VZW-16
+4cc3db4 Merge pull request #49 from razrqcom-dev-team/cm-10.1
+815f7f4 Merge pull request #51 from Motorola-OMAP4-CM/cm-10.1
+707461e Merge pull request #1 from Atrix2-Dev-Team/cm-10.1
+af78d60 xt926: add updated firmware from 9.8.1Q-79 and Baseband
+1de176f fix gps.umts_spyder location and spelling
+626a201 edison: update to match extract-files
+aa6095a edison: add more blobs to build
+4eac59e xt925: Add baseband and firmwares from 9.8.2Q-50-XT925_VQLM-21
+7bb9d1a Merge pull request #50 from Motorola-OMAP4-CM/cm-10.1
+27e4f44 update maserati bins from 4.1.2/9.8.2O-72_VZW-18
+0a67477 omap4-common: fix ifdef
+0fd2699 Update makefiles to match extract-files.sh
+6c8097f 9.8.1Q-79 blob update
+029a739 msm8960-common: sensors.qcom: kill the log spam
+d2889e3 msm8960-common: xt926 9.8.1Q-79 xt926 blob update
+d81f160 msm8960-common: vendor-camera: Fix up extract-files for copying to destination
+fede94f msm8960-common: gps: use Motorola libloc_api_v02.so
+
+   * vendor/oppo
+1c7b331 Add libacdbloader, libaudcal from Color 4.2
+37a29aa Update camera blobs from Chinese 4.2 Color ROM
+
+   * vendor/samsung
+da0d7b2 Merge pull request #280 from arco/cm-10.1
+71239ea serrano: Blob updates from MH1
+a5a0612 Merge pull request #278 from arco/cm-10.1
+d04f53c Use libloc_api_v02.so from Mako
+67b081e serrano-common: Remove NFC firmware
+affbe2a Merge pull request #273 from dastin1015/cm-10.1
+fe4b955 d710: update JB blobs for cm-10.1
+489846e Merge pull request #256 from invisiblek/cm-10.1
+9a9d82b Merge pull request #246 from Kick-Buttowski/cm-10.1
+525c9eb Merge pull request #266 from arco/cm-10.1
+2b66623 Initial commit for serrano
+be4f43b d2att: update rilblob (UCDMG2)
+84c4a04 Merge pull request #252 from SGH-I577/cm-10.1
+ff9ccad add i577 support
+3523ae8 Renamed camera libs to implement CameraWrapper in device tree
+9a64632 Merge pull request #230 from sbrissen/cm-10.1
+a0bd5d6 Merge pull request #243 from Kick-Buttowski/patch-3
+8a8bf56 fixed another derp
+ffdfbae Merge pull request #242 from Kick-Buttowski/patch-1
+587b59d fixed a derp
+8e0924c updated to use open source libril
+1aaacad Merge pull request #241 from sam3000/cm-10.1
+514ffe1 jf-common: jf-common-vendor-blobs.mk update to match extract-files.sh
+72f1dfc jf: upgrade ril to  intl MGA and upgrade jfltetmo to mdl
+07e4682 jf: update mf3 ril and rename && combine ril
+dbaeea5 add n5110 support and update smdk4412 wifi firmware
+8d851d0 Merge branch 'cm-10.1' of https://github.com/TheMuppets/proprietary_vendor_samsung into cm-10.1
+8c4ff65 Merge pull request #240 from invisiblek/cm-10.1
+18c33b1 d2-common: bcmdhd: update firmware to 6.10.58.93
+fb64084 Merge branch 'cm-10.1' of https://github.com/TheMuppets/proprietary_vendor_samsung into cm-10.1
+d87455f exynos: update mali r3p1-01rel1 BUILD_DATE=Tue Jul 2 15:06:24 KST 2013
+
+   * vendor/sony
+7c9119a dogo: fix audio call
+00dd2b0 blue: update prop for newer ion api
+b3b881c blue/fusion3: remove anc firmware
+4f54984 proprietary-files: camera: updates from 10.3.A.0.423
+48ac6b4 dogo: update blob
+691c9cd add dogo device
+b4141c5 fusion3: update common firmware from 10.3.1.A.0.244
+2c5af6b fusion3: WCNSS WLAN version 1.4.1.2
+d5afdf1 pollux_windy: cleanup
+5ba7b0f Merge pull request #21 from pulser/cm-10.1
+e2239ff Update pollux_windy blobs to 370
+f1297eb Add pollux_windy gss blobs from 370
+
+   * vendor/tmobile/apps/ThemeChooser
+100643a ThemeChooser: FI translations
+
+   * vendor/tmobile/providers/ThemeManager
+d43f8aa ThemeManager: FI translations
+c3526db ThemeManager: DA translation
+

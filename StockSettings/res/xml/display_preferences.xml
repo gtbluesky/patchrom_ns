@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cyanogenmod.settings.device.ColorTuningPreference android:title="@string/color_tuning_title_head" android:key="color_tuning" android:summary="@string/color_tuning_summary_head" />
+    <com.cyanogenmod.settings.device.GammaTuningPreference android:title="@string/gamma_tuning_title_head" android:key="gamma_tuning" android:summary="@string/gamma_tuning_summary_head" />
+    <com.cyanogenmod.settings.device.ColorHackPresets android:title="@string/color_hack_presets_title_head" android:key="color_presets" android:summary="@string/color_hack_presets_summary_head" />
+</PreferenceScreen>

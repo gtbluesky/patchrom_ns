@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="has_volume_wake">true</bool>
+    <bool name="has_button_light">false</bool>
+    <bool name="has_camera_key">true</bool>
+    <bool name="emulated_available_internal_memroy">false</bool>
+    <bool name="power_mode_enable">true</bool>
+</resources>

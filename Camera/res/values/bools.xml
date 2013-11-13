@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="previewStopsDuringSnapshot">false</bool>
+    <bool name="needsSamsungCamMode">false</bool>
+    <bool name="needsHTCCamMode">false</bool>
+    <bool name="useProfileVideoSize">false</bool>
+    <bool name="needsEarlyVideoSize">false</bool>
+    <bool name="wantsFocusModes">false</bool>
+    <bool name="usePreferredPreviewSizeForEffects">false</bool>
+    <bool name="ignorePreferredPreviewSizeForVideo">false</bool>
+    <bool name="noFaceDetectOnFrontCamera">false</bool>
+    <bool name="enableZSL">false</bool>
+    <bool name="disableSoftwareHDR">false</bool>
+    <bool name="useContinuosFocusForTouch">false</bool>
+    <bool name="sendMagicSamsungZSLCommand">false</bool>
+    <bool name="forceSoftwareHDR">false</bool>
+    <bool name="needsSamsungHDRFormat">false</bool>
+    <bool name="enableShutterSpeed">false</bool>
+    <bool name="show_action_bar_title">false</bool>
+    <bool name="picker_is_dialog">false</bool>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1,2,3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:layout_column="1" android:text="@string/label_state" />
+        <TextView android:gravity="right" android:layout_column="2" android:text="@string/label_time" />
+        <TextView android:gravity="right" android:layout_column="3" android:text="@string/label_average" />
+    </TableRow>
+    <View android:background="#ff909090" android:layout_height="1.0dip" android:layout_marginBottom="3.0dip" />
+    <TableRow>
+        <TextView android:layout_column="1" android:text="@string/label_idle1" />
+        <TextView android:gravity="right" android:id="@id/time1" android:layout_column="2" android:text="@id/time1" />
+        <TextView android:gravity="right" android:id="@id/avg1" android:layout_column="3" android:text="@id/avg1" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_column="1" android:text="@string/label_idle2" />
+        <TextView android:gravity="right" android:id="@id/time2" android:layout_column="2" android:text="@id/time2" />
+        <TextView android:gravity="right" android:id="@id/avg2" android:layout_column="3" android:text="@id/avg2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_column="1" android:text="@string/label_idle3" />
+        <TextView android:gravity="right" android:id="@id/time3" android:layout_column="2" android:text="@id/time3" />
+        <TextView android:gravity="right" android:id="@id/avg3" android:layout_column="3" android:text="@id/avg3" />
+    </TableRow>
+</TableLayout>

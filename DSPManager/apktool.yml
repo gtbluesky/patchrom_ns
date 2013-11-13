@@ -1,0 +1,14 @@
+version: 1.5.2
+apkFileName: DSPManager.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 6
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.bel.android.dspmanager
+  orig_package: com.bel.android.dspmanager
+compressionType: false

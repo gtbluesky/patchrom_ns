@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="FrequencyResponse">false</item>
+    <item type="id" name="help">false</item>
+    <item type="id" name="bass_boost_gain_text">false</item>
+    <item type="id" name="bass_boost_gain_value">false</item>
+    <item type="id" name="bass_boost_gain_seekbar">false</item>
+    <item type="id" name="bass_boost_range_text">false</item>
+    <item type="id" name="bass_boost_range_value">false</item>
+    <item type="id" name="bass_boost_range_seekbar">false</item>
+    <item type="id" name="headphone_amplifier_level_text">false</item>
+    <item type="id" name="headphone_amplifier_level_value">false</item>
+    <item type="id" name="headphone_amplifier_level_seekbar">false</item>
+    <item type="id" name="viewPager">false</item>
+</resources>

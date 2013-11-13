@@ -1,0 +1,24 @@
+diff -Naur a/Settings/res/xml/settings_headers.xml b/Settings/res/xml/settings_headers.xml
+--- a/Settings/res/xml/settings_headers.xml	2013-10-13 21:52:54.908443302 +0800
++++ b/Settings/res/xml/settings_headers.xml	2013-10-13 21:54:09.492445299 +0800
+@@ -47,7 +47,7 @@
+     <header android:icon="@drawable/ic_headset_settings" android:id="@id/headset_settings" android:title="@string/headset_settings">
+         <intent android:action="miui.intent.action.HEADSET_SETTINGS" />
+     </header>
+-    <header android:id="@id/manufacturer_settings">
++    <header android:icon="@drawable/ic_launcher_settings" android:id="@id/manufacturer_settings">
+         <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
+     </header>
+     <header android:id="@id/system_section" android:title="@string/header_category_system" />
+diff -Naur a/Settings/smali/com/android/settings/applications/RunningServiceDetails.smali b/Settings/smali/com/android/settings/applications/RunningServiceDetails.smali
+--- a/Settings/smali/com/android/settings/applications/RunningServiceDetails.smali	2013-10-13 21:52:52.468443236 +0800
++++ b/Settings/smali/com/android/settings/applications/RunningServiceDetails.smali	2013-10-13 21:59:32.556453951 +0800
+@@ -1185,7 +1185,7 @@
+     .line 314
+     iget-object v7, v3, Lcom/android/settings/applications/RunningServiceDetails$ActiveDetail;->mReportButton:Landroid/widget/Button;
+ 
+-    const v8, 0x10403dc
++    const v8, 0x104044b
+ 
+     invoke-virtual {v7, v8}, Landroid/widget/Button;->setText(I)V
+ 

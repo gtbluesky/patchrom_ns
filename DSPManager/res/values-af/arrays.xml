@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="microphone_recording_presets">
+        <item>Oorspronklik</item>
+        <item>Gebalanseerd</item>
+        <item>Hoë sensitiwiteit</item>
+        <item>Luide omgewing</item>
+    </string-array>
+    <string-array name="headphone_modes">
+        <item>Ateljee</item>
+        <item>Kamer</item>
+        <item>Groot kamer</item>
+        <item>Verhoog</item>
+    </string-array>
+    <string-array name="equalizer_loudness_modes">
+        <item>Deaktiveer</item>
+        <item>Swakste</item>
+        <item>Swakker</item>
+        <item>Swak</item>
+        <item>Sterk</item>
+        <item>Sterker</item>
+        <item>Sterkste</item>
+    </string-array>
+    <string-array name="compression_modes">
+        <item>Effens</item>
+        <item>Matig</item>
+        <item>Uiters</item>
+    </string-array>
+    <string-array name="bassboost_modes">
+        <item>Effens</item>
+        <item>Matig</item>
+        <item>Uiters</item>
+    </string-array>
+    <string-array name="wm8994_bassboost_modes">
+        <item>Standaard</item>
+        <item>Klein luidsprekers</item>
+    </string-array>
+</resources>
