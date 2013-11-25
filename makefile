@@ -49,6 +49,8 @@ myota: target_files
 updater := $(ZIP_DIR)/META-INF/com/google/android/updater-script
 pre_install_data_packages := out/pre_install_apk_pkgname.txt
 local-pre-zip-misc:
+# To add miui fonts
+	cp -rf other/miui_fonts/* $(ZIP_DIR)/system/
 	cp other/build.prop $(ZIP_DIR)/system/build.prop
 # To replace camera
 #	cp other/Gallery2.apk $(ZIP_DIR)/system/app/Gallery2.apk
